@@ -1,1 +1,75 @@
+Day 2 – Linux File System & Navigation (25 Commands)
+# 1. Show current directory
+pwd
 
+# 2. List files and folders
+ls
+
+# 3. Change to home directory
+cd
+
+# 4. Change to root directory
+cd /
+
+# 5. Go back to previous directory
+cd ..
+
+# 6. Go to home using shortcut
+cd ~
+
+# 7. Create a directory
+mkdir test
+
+# 8. Create nested directories
+mkdir -p test/day2/linux
+
+# 9. Change directory to test
+cd test
+
+# 10. Create empty file
+touch file1.txt
+
+# 11. Create multiple files
+touch file2.txt file3.txt
+
+# 12. List files with details
+ls -l
+
+# 13. Show hidden files
+ls -a
+
+# 14. Copy file
+cp file1.txt file1_copy.txt
+
+# 15. Move file
+mv file2.txt newfile.txt
+
+# 16. Rename file
+mv file3.txt renamed.txt
+
+# 17. Delete file
+rm renamed.txt
+
+# 18. Remove empty directory
+rmdir test
+
+# 19. Remove directory with files (force)
+rm -r test
+
+# 20. Show directory tree (if installed)
+tree
+
+# 21. Show disk usage of directory
+du -sh .
+
+# 22. Show total disk space
+df -h
+
+# 23. Find current directory files
+find . -type f
+
+# 24. Show file type
+file file1.txt
+
+# 25. Clear terminal
+clear
