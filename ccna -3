@@ -1,0 +1,59 @@
+# 1. Create a directory
+mkdir linux_day3
+
+# 2. Go inside directory
+cd linux_day3
+
+# 3. Create an empty file
+touch file1.txt
+
+# 4. Create multiple files
+touch file2.txt file3.txt
+
+# 5. Write text to file
+echo "Hello Linux" > file1.txt
+
+# 6. Append text to file
+echo "Learning Day 3" >> file1.txt
+
+# 7. View file content
+cat file1.txt
+
+# 8. View file page by page
+less file1.txt
+
+# 9. View file with line numbers
+nl file1.txt
+
+# 10. Copy file
+cp file1.txt copy_file1.txt
+
+# 11. Copy file to another directory
+cp file1.txt /tmp/
+
+# 12. Move file
+mv file2.txt moved_file.txt
+
+# 13. Rename file
+mv file3.txt renamed_file.txt
+
+# 14. Delete a file
+rm renamed_file.txt
+
+# 15. Create sub directory
+mkdir backup
+
+# 16. Move file into directory
+mv copy_file1.txt backup/
+
+# 17. List files with details
+ls -l
+
+# 18. Show disk usage of folder
+du -sh .
+
+# 19. Show file type
+file file1.txt
+
+# 20. Clear terminal
+clear
