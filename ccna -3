@@ -49,11 +49,11 @@ mv copy_file1.txt backup/
 # 17. List files with details
 ls -l
 
-# 18. Show disk usage of folder
-du -sh .
+# 18. Show the disk usage of the folder
+du  -sh .
 
 # 19. Show file type
 file file1.txt
 
 # 20. Clear terminal
-clear
+clear 
