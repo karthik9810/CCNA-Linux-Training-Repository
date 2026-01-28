@@ -8,7 +8,7 @@ cd linux_day3
 touch file1.txt
 
 # 4. Create multiple files
-touch file2.txt file3.txt
+touch  file2.txt file3.txt
 
 # 5. Write text to file
 echo "Hello Linux" > file1.txt
@@ -23,34 +23,34 @@ cat file1.txt
 less file1.txt
 
 # 9. View file with line numbers
-nl file1.txt
+nl  file1.txt
 
 # 10. Copy file
-cp file1.txt copy_file1.txt
+cp  file1.txt copy_file1.txt
 
 # 11. Copy file to another directory
-cp file1.txt /tmp/
+cp  file1.txt /tmp/
 
 # 12. Move file
-mv file2.txt moved_file.txt
+mv  file2.txt moved_file.txt
 
 # 13. Rename file
-mv file3.txt renamed_file.txt
+mv  file3.txt renamed_file.txt
 
 # 14. Delete a file
-rm renamed_file.txt
+rm  renamed_file.txt
 
 # 15. Create sub directory
-mkdir backup
+mkdir  backup
 
 # 16. Move file into directory
 mv copy_file1.txt backup/
 
 # 17. List files with details
-ls -l
+ls  -l
 
 # 18. Show the disk usage of the folder
-du  -sh .
+du   -sh .
 
 # 19. Show file type
 file file1.txt
