@@ -34,7 +34,7 @@ cp  file1.txt /tmp/
 # 12. Move file
 mv  file2.txt moved_file.txt
 
-# 13. Rename file
+# 13. Rename file 
 mv  file3.txt renamed_file.txt
 
 # 14. Delete a file
