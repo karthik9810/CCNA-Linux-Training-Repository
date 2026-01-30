@@ -26,7 +26,7 @@ mkdir -p test/day2/linux
 # 9. Change directory to test
 cd test
 
-# 10. Create empty file
+# 10. Create empty files 
 touch file1.txt
 
 # 11. Create multiple files
