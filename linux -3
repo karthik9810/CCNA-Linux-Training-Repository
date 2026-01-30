@@ -56,4 +56,4 @@ du   -sh .
 file file1.txt
 
 # 20. Clear terminal
-clear 
+clear
