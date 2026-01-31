@@ -52,7 +52,7 @@ ls  -l
 # 18. Show the disk usage of the folder
 du   -sh .
 
-# 19. Show file type
+# 19. Show filr type
 file file1.txt
 
 # 20. Clear terminal
