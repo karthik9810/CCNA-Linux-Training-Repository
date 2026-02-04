@@ -60,7 +60,7 @@ rm -r test
 tree
 
 # 21. Show disk usage of directory
-du -sh .
+du -sh -
 
 # 22. Show total disk space
 df -h
