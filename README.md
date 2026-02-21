@@ -27,6 +27,6 @@ linux-20-days-roadmap/
 ├── Day17_SSH_SCP/
 ├── Day18_Archiving_Backups/
 ├── Day19_Troubleshooting/
-└── Day20_Mini_Project/
+└── Day20_Mini_ProjeCT/
 
 
